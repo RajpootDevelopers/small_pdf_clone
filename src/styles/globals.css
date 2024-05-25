@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+
+/* Convert_and_Compress */
+.Convert_and_Compress:hover{
+  background-color: #F23030;
+}
+.Convert_and_Compress:nth-child(3):hover{
+  background-color: #003CB2;
+}
+
+/* Organize */
+.Organize:hover{
+  background-color: #7961F2;
+}
+
+/* View_and_Edit */
+.View_and_Edit:hover{
+  background-color: #0FC0C5;
+}
+
+/* Convert_PDF */
+.Convert_PDF:hover{
+  background-color: #3D99F5;
+}
+.Convert_PDF:nth-child(2):hover {
+  background-color: #0C4;
+}
+.Convert_PDF:nth-child(3):hover {
+  background-color: #FF8000;
+}
+.Convert_PDF:nth-child(4):hover {
+  background-color: #FFB700;
+}
+
+/* Sign_and_Security */
+.Sign_and_Security:hover{
+  background-color: #FF5975;
+}
+.Sign_and_Security:nth-child(1):hover {
+  background-color: #E667E6;
+}
